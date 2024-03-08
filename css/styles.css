@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #E7E5E4;
   margin: 0;
   padding: 20px;
 }
@@ -10,4 +10,51 @@ h1 {
   color: #333;
 }
 
+#fichasUsuarios {
+  list-style: none;
+}
 
+.fichass {
+  width: 320px;
+  height: 150px;
+  background-color: #1F2141;
+  border: 1px solid gold;
+  color: silver;
+  border-radius: 5px;
+  margin: 3px;
+  /*display: inline-flex;*/
+  display: inline-block;
+  overflow: auto;
+}
+
+.retrato {
+  width: 80px;
+  height: 80px;
+  float: right;
+  padding: 3px;
+}
+
+.seccion {
+  width: 70%;
+  height: 85px;
+  border: 1px solid gold;
+  color: silver;
+  border-radius: 3px;
+  margin: 5px;
+  list-style: none;
+  padding-left: 3px; /* Quitar el margen que tiene una lista por defecto */
+  font-size: 13px;
+}
+
+.seccion2 {
+  font-size: 13px;
+  list-style: none;
+  padding-left: 3px; /* Quitar el margen que tiene una lista por defecto */
+  color: silver;
+}
+
+.prueba {
+  padding-left: 0;
+  
+
+}
